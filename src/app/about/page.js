@@ -1,11 +1,9 @@
 import React from "react";
+import Herosection from "../components/HeroSection";
 
-const About = (props) =>{
+const About = () =>{
   return(
-    <div>
-       <h1> About me </h1> 
-
-    </div>
+       <Herosection HeroTitle={"Our Kahani"} imageUrl={"/about1.svg"} HeroPara={" Hum hai Raahi Pyar KE"} />
   );
 };
 
